@@ -77,7 +77,7 @@
 
 					font = response;
 
-					var text = "Курсовая работа Акудинина Т.В. М31с";
+					var text = "Курсовая работа Акулинина Т.В. М31с";
 					var text_geometry = new THREE.TextGeometry( text, 
 							{
 								size: 6,
@@ -90,7 +90,7 @@
 								bevelSize: 1, 
 							});
 					
-					var text_Material = new THREE.MeshPhongMaterial( { color: 0x62254a } );
+					var text_Material = new THREE.MeshPhongMaterial( { color: 0x66ff00 } );
 					var text3D = new THREE.Mesh( text_geometry, text_Material );
 					
 					text_geometry.computeBoundingBox();
