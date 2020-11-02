@@ -1,5 +1,5 @@
 @@ -1,3 +1,4 @@
-<!DOCTYPE html>
+<html>
 <html lang="en">
 <head>
 <title>three.js webgl - геометрические фигуры</title>
