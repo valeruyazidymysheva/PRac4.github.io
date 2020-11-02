@@ -73,15 +73,15 @@
 
 				// scene objects
 				var loader = new THREE.FontLoader();
-				loader.load( '', function ( response ) {
+				loader.load( 'fonts.json', function ( response ) {
 
 					font = response;
 
-					var text = "fgfghd Приемы прогрммирования и разработка приложений Курсовая работа Акудинина Т.В. М31с";
+					var text = "Курсовая работа Акудинина Т.В. М31с";
 					var text_geometry = new THREE.TextGeometry( text, 
 							{
-								size: 24,
-								height: 5,
+								size: 6,
+								height: 3,
 								curveSegments: 4,
 								font: font,
 								style: "normal",
