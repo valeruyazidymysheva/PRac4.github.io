@@ -77,7 +77,7 @@
 
 					font = response;
 
-					var text = "Курсовая работа Акулинина Т.В. М31с";
+					var text = "Приемы прогрммирования и разработка приложений";
 					var text_geometry = new THREE.TextGeometry( text, 
 							{
 								size: 6,
